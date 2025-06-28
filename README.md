@@ -402,7 +402,6 @@ docker run -p 8080:8080 gostreampuller-app
 gostreampuller/
 ├── downloader/
 │   └── downloader.go        // Core package
-├── main.go                  // Example usage
 ├── go.mod
 └── README.md
 ```
