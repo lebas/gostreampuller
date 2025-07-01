@@ -1,6 +1,6 @@
 # 🎬 gostreampuller
 
-![gostreampuller banner](https://raw.githubusercontent.com/Debargha2001/gostreampuller/main/assets/banner.png)
+![gostreampuller banner](https://github.com/user-attachments/assets/6fd472c1-953f-4b0f-97d3-00c0a0e99424)
 
 **gostreampuller** is a lightweight Go package to download videos or extract audio from popular streaming platforms including **YouTube, Facebook, Instagram, TikTok, Twitter, and many more** using [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) and [`ffmpeg`](https://ffmpeg.org/).  
 It's designed for cross-platform use: **Linux, macOS, and Windows**.
