@@ -1,3 +1,3 @@
-module github.com/debargha2001/gostreampuller	
+module github.com/lebas/gostreampuller
 
 go 1.24.1
