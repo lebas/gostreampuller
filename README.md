@@ -10,7 +10,7 @@ It's designed for cross-platform use: **Linux, macOS, and Windows**.
 ## 📦 Installation
 
 ```bash
-go get github.com/debargha2001/gostreampuller
+go get github.com/lebas/gostreampuller
 ```
 
 ---
@@ -26,7 +26,7 @@ import (
   "fmt"
   "log"
 
-  "github.com/debargha2001/gostreampuller/downloader"
+  "github.com/lebas/gostreampuller/downloader"
 )
 
 func main() {
@@ -59,7 +59,7 @@ import (
   "fmt"
   "log"
 
-  "github.com/debargha2001/gostreampuller/downloader"
+  "github.com/lebas/gostreampuller/downloader"
 )
 
 func main() {
