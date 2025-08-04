@@ -61,7 +61,7 @@ func DownloadVideo(url string, format string, resolution string, codec string) (
 
 	// If format is different from downloaded format, convert it
 	finalOutput := strings.Replace(temp, "%(ext)s", format, 1)
-	cookiesInput := "--cookies cookies.txt"
+	cookiesInput := "--cookies /cookies.txt"
 	if downloaded != finalOutput {
 		ffmpeg := exec.Command(FFMPEGPath, cookiesInput, "-i", downloaded, "-c", "copy", "-y", finalOutput)
 		if err := ffmpeg.Run(); err != nil {
